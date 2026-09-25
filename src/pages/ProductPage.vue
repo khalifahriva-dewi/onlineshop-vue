@@ -4,8 +4,8 @@ import ProductCard from '../components/ProductCard.vue'
 const daftarProduk = [
   {
     id: 1,
-    nama: 'Kaos Sekolah',
-    harga: 75000,
+    nama: 'Seragam Sekolah',
+    harga: 150000,
     gambar: 'https://placehold.co/150'
   },
   {
@@ -19,7 +19,7 @@ const daftarProduk = [
     nama: 'Tas Sekolah',
     harga: 120000,
     gambar: 'https://placehold.co/150'
-  },
+  }
 ]
 </script>
 
@@ -40,9 +40,17 @@ const daftarProduk = [
 </template>
 
 <style scoped>
-.grid{
-  display:flex;
-  gap:16px;
-  flex-wrap:wrap;
+main {
+  padding: 30px 50px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 </style>
