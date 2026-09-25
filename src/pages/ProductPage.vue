@@ -19,7 +19,7 @@ const daftarProduk = [
     nama: 'Tas Sekolah',
     harga: 120000,
     gambar: 'https://placehold.co/150'
-  }
+  },
 ]
 </script>
 
